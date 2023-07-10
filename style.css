@@ -1,0 +1,79 @@
+body {
+    font-family: roboto;
+    background-color: gainsboro;
+    padding: 0;
+    margin: 0 2px 0 2px;
+}
+
+nav {
+    background-color: rgb(122, 58, 154);
+    display: flex;
+    justify-content: end;
+}
+
+/* .menu {
+    display: inline-block;
+    padding: 0;
+} */
+
+.menu li {
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.menu li a {
+    color: azure;
+}
+
+.image-container {
+    height: 540px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 50px 0 100px 450px;
+    
+}
+
+#about {
+margin: 10px;
+padding-bottom: 20px;
+}
+
+#work {
+margin: 10px;
+padding-bottom: 20px;
+}
+
+#resume {
+margin: 10px;
+padding-bottom: 20px;
+}
+
+#contact {
+margin: 10px;
+padding-bottom: 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: rgb(187, 16, 16);
+}
+
+.media {
+    display: flex;
+    gap: 70px;
+    padding-bottom: 100px;
+}
+
+.footer {
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+}
